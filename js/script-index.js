@@ -1,5 +1,15 @@
 $(document).ready( function(){
 
+  //Escondiendo el botón back
+  $('.js-back').hide();
+
+  //Mostrando el texto en la lista de noticias
+  function printNews () {
+    $('#titleNews').append('nuevas recetas');
+  }
+
+  printNews();
+
 	//La variable "recipesArray" esta declarada en el archivo "data/recipes.js"
 	renderHighlightedRecipes(recipesArray);
 
