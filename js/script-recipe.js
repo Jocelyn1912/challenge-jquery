@@ -1,6 +1,6 @@
 $(document).ready( function(){
 
-  //Escondiendo el botón back
-  $('.js-menu').hide();
+  //Quitando el botón back
+  $('.js-menu').remove();
 
 });
